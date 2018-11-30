@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <!-- 가로 메뉴 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/BigMnu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:orientation="horizontal">
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.015"
+                    android:background="@color/white">
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.22"
+                    android:background="@color/white">
+
+                    <Button
+                        android:id="@+id/btn_ch_intro"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:background="@color/white"
+                        android:text="교회소개"
+                        android:textColor="@android:color/darker_gray"
+                        android:textSize="15dp"
+                        android:textStyle="bold" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.21"
+                    android:background="@color/white">
+
+                    <Button
+                        android:id="@+id/btn_ws_intro"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:background="@color/white"
+                        android:text="예배안내"
+                        android:textColor="@android:color/darker_gray"
+                        android:textSize="15dp"
+                        android:textStyle="bold" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.245"
+                    android:background="@color/white">
+
+                    <Button
+                        android:id="@+id/btn_pastor_intro"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:background="@color/white"
+                        android:text="목회자소개"
+                        android:textColor="@android:color/darker_gray"
+                        android:textSize="15dp"
+                        android:textStyle="bold" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.21"
+                    android:background="@color/white">
+
+                    <Button
+                        android:id="@+id/btn_team_intro"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:background="@color/white"
+                        android:text="사역소개"
+                        android:textColor="@android:color/darker_gray"
+                        android:textSize="15dp"
+                        android:textStyle="bold" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.1"
+                    android:background="@color/white">
+
+                    <ImageButton
+                        android:id="@+id/btn_right"
+                        android:layout_width="10dp"
+                        android:layout_height="15dp"
+                        android:layout_marginTop="17dp"
+                        android:layout_centerInParent="true"
+                        android:background="@drawable/right_tri" />
+                </RelativeLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+        <FrameLayout
+            android:id="@+id/content_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"></FrameLayout>
+    </LinearLayout>
+
+</LinearLayout>

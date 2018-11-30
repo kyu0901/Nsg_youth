@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.08"></RelativeLayout>
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.84">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="청바지"
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                android:layout_marginBottom="20dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="다양한 지식과 이슈를 함께 배우고 나누며 기독청년으로서의 바른 지성을 추구하는 청년부 지식공동체 모임입니다. 함께 책 읽고 영화 보고 토론하고, 맛있는 걸 먹습니다^_^
+2015년 1학기부터 모임을 이어나가고 있고, 매 시즌(2개월 간격, 6-7주 진행)마다 다양한 주제(인문, 정치, 심리, 교회, 여성 등)를 다룹니다."
+                android:lineSpacingExtra="5dp"
+                android:layout_marginBottom="20dp"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.08"></RelativeLayout>
+
+
+</LinearLayout>

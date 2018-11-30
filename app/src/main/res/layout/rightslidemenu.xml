@@ -1,0 +1,652 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:overScrollMode="never">
+
+    <LinearLayout
+        android:id="@+id/activity_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginRight="0dp"
+        android:background="#f2f2f2"
+        android:orientation="vertical"
+        android:padding="0dp">
+
+        <TextView
+            android:id="@+id/text1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:paddingBottom="10dp"
+            android:paddingLeft="23dp"
+            android:paddingTop="15dp"
+            android:text="소개"
+            android:textColor="#000000"
+            android:textSize="22dp"
+            android:textStyle="bold" />
+
+        <View
+            style="@style/Divider"
+            android:layout_width="match_parent"
+            android:layout_marginRight="0dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.2"></RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.8"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/btn_r_ch_intro"
+                    style="?android:attr/borderlessButtonStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#f2f2f2"
+                    android:gravity="left"
+                    android:paddingBottom="8dp"
+                    android:paddingTop="15dp"
+                    android:text="교회 소개"
+                    android:textColor="#919191"
+                    android:textSize="21dp" />
+
+                <Button
+                    android:id="@+id/btn_r_ws_intro"
+                    style="?android:attr/borderlessButtonStyle"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#f2f2f2"
+                    android:gravity="left"
+                    android:paddingBottom="8dp"
+                    android:paddingTop="8dp"
+                    android:text="예배 안내"
+                    android:textColor="#919191"
+                    android:textSize="21dp"
+                    android:typeface="sans" />
+
+                <Button
+                    android:id="@+id/btn_r_pastor_intro"
+                    style="?android:attr/borderlessButtonStyle"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#f2f2f2"
+                    android:gravity="left"
+                    android:paddingBottom="8dp"
+                    android:paddingTop="8dp"
+                    android:text="목회자 소개"
+                    android:textColor="#919191"
+                    android:textSize="21dp"
+                    android:typeface="sans" />
+
+                <Button
+                    android:id="@+id/btn_r_team_intro"
+                    style="?android:attr/borderlessButtonStyle"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#f2f2f2"
+                    android:gravity="left"
+                    android:paddingBottom="8dp"
+                    android:paddingTop="8dp"
+                    android:text="사역 소개"
+                    android:textColor="#919191"
+                    android:textSize="21dp" />
+
+                <Button
+                    android:id="@+id/btn_r_circle_intro"
+                    style="?android:attr/borderlessButtonStyle"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#f2f2f2"
+                    android:gravity="left"
+                    android:paddingBottom="8dp"
+                    android:paddingTop="8dp"
+                    android:text="소모임 소개"
+                    android:textColor="#919191"
+                    android:textSize="21dp" />
+
+
+                <Button
+                    android:id="@+id/btn_r_new_family_reg"
+                    style="?android:attr/borderlessButtonStyle"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#f2f2f2"
+                    android:gravity="left"
+                    android:paddingBottom="15dp"
+                    android:paddingTop="8dp"
+                    android:text="새가족 등록"
+                    android:textColor="#919191"
+                    android:textSize="21dp" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <View style="@style/Divider2" />
+
+        <TextView
+            android:id="@+id/text2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:paddingBottom="10dp"
+            android:paddingLeft="23dp"
+            android:paddingTop="15dp"
+            android:text="예배"
+            android:textColor="#000000"
+            android:textSize="22dp"
+            android:textStyle="bold" />
+
+        <View style="@style/Divider" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.2"></RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.8"
+                android:orientation="vertical">
+
+
+                <Button
+                    android:id="@+id/btn_r_gpt"
+                    style="?android:attr/borderlessButtonStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#f2f2f2"
+                    android:gravity="left"
+                    android:paddingBottom="8dp"
+                    android:paddingTop="15dp"
+                    android:text="주일 예배"
+                    android:textColor="#919191"
+                    android:textSize="21dp" />
+
+                <Button
+                    android:id="@+id/btn_r_tbm"
+                    style="?android:attr/borderlessButtonStyle"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#f2f2f2"
+                    android:gravity="left"
+                    android:paddingBottom="8dp"
+                    android:paddingTop="8dp"
+                    android:text="목요 예배 (TBM)"
+                    android:textColor="#919191"
+                    android:textSize="21dp"
+                    android:typeface="sans" />
+
+                <Button
+                    android:id="@+id/btn_r_sat_morn"
+                    style="?android:attr/borderlessButtonStyle"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#f2f2f2"
+                    android:gravity="left"
+                    android:paddingBottom="8dp"
+                    android:paddingTop="8dp"
+                    android:text="토요 예배 (토아기)"
+                    android:textColor="#919191"
+                    android:textSize="21dp"
+                    android:typeface="sans" />
+
+                <Button
+                    android:id="@+id/btn_r_joseph"
+                    style="?android:attr/borderlessButtonStyle"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#f2f2f2"
+                    android:gravity="left"
+                    android:paddingBottom="8dp"
+                    android:paddingTop="8dp"
+                    android:text="청년 요셉부"
+                    android:textColor="#919191"
+                    android:textSize="21dp"
+                    android:typeface="sans" />
+
+                <Button
+                    android:id="@+id/btn_r_live"
+                    style="?android:attr/borderlessButtonStyle"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#f2f2f2"
+                    android:gravity="left"
+                    android:paddingBottom="15dp"
+                    android:paddingTop="8dp"
+                    android:text="주일 생방송예배"
+                    android:textColor="#919191"
+                    android:textSize="21dp"
+                    android:typeface="sans" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+        <View style="@style/Divider2" />
+
+        <TextView
+            android:id="@+id/text3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:paddingBottom="10dp"
+            android:paddingLeft="23dp"
+            android:paddingTop="15dp"
+            android:text="공지"
+            android:textColor="#000000"
+            android:textSize="22dp"
+            android:textStyle="bold" />
+
+        <View style="@style/Divider" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.2"></RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.8"
+                android:orientation="vertical">
+
+
+                <Button
+                    android:id="@+id/btn_r_main_event"
+                    style="?android:attr/borderlessButtonStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#f2f2f2"
+                    android:gravity="left"
+                    android:paddingBottom="8dp"
+                    android:paddingTop="15dp"
+                    android:text="주요 행사"
+                    android:textColor="#919191"
+                    android:textSize="21dp" />
+
+                <Button
+                    android:id="@+id/btn_r_weekly_news"
+                    style="?android:attr/borderlessButtonStyle"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#f2f2f2"
+                    android:gravity="left"
+                    android:paddingBottom="8dp"
+                    android:paddingTop="8dp"
+                    android:text="주보"
+                    android:textColor="#919191"
+                    android:textSize="21dp"
+                    android:typeface="sans" />
+
+                <Button
+                    android:id="@+id/btn_r_upcoming_word"
+                    style="?android:attr/borderlessButtonStyle"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#f2f2f2"
+                    android:gravity="left"
+                    android:paddingBottom="8dp"
+                    android:paddingTop="8dp"
+                    android:text="다가오는 말씀"
+                    android:textColor="#919191"
+                    android:textSize="21dp"
+                    android:typeface="sans" />
+
+                <Button
+                    android:id="@+id/btn_r_survey"
+                    style="?android:attr/borderlessButtonStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#f2f2f2"
+                    android:gravity="left"
+                    android:paddingBottom="8dp"
+                    android:paddingTop="8dp"
+                    android:text="설문 조사"
+                    android:textColor="#919191"
+                    android:textSize="21dp" />
+
+                <Button
+                    android:id="@+id/btn_r_album"
+                    style="?android:attr/borderlessButtonStyle"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#f2f2f2"
+                    android:gravity="left"
+                    android:paddingBottom="8dp"
+                    android:paddingTop="8dp"
+                    android:text="앨범"
+                    android:textColor="#919191"
+                    android:textSize="21dp"
+                    android:typeface="sans" />
+
+                <Button
+                    android:id="@+id/btn_r_adv_video"
+                    style="?android:attr/borderlessButtonStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#f2f2f2"
+                    android:gravity="left"
+                    android:paddingBottom="15dp"
+                    android:paddingTop="8dp"
+                    android:text="광고 영상"
+                    android:textColor="#919191"
+                    android:textSize="21dp" />
+
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+        <View style="@style/Divider2" />
+
+        <TextView
+            android:id="@+id/text4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:paddingBottom="10dp"
+            android:paddingLeft="23dp"
+            android:paddingTop="15dp"
+            android:text="기도"
+            android:textColor="#000000"
+            android:textSize="22dp"
+            android:textStyle="bold" />
+
+        <View style="@style/Divider" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.2"></RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.8"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/btn_r_weekly_pray"
+                    style="?android:attr/borderlessButtonStyle"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#f2f2f2"
+                    android:gravity="left"
+                    android:paddingBottom="8dp"
+                    android:paddingTop="15dp"
+                    android:text="주간 기도제목"
+                    android:textColor="#919191"
+                    android:textSize="21dp"
+                    android:typeface="sans" />
+
+
+                <Button
+                    android:id="@+id/btn_r_pray_donation"
+                    style="?android:attr/borderlessButtonStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#f2f2f2"
+                    android:gravity="left"
+                    android:paddingBottom="15dp"
+                    android:paddingTop="8dp"
+                    android:text="기도와 후원"
+                    android:textColor="#919191"
+                    android:textSize="21dp" />
+
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+        <View style="@style/Divider2" />
+
+        <TextView
+            android:id="@+id/text5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:paddingBottom="10dp"
+            android:paddingLeft="23dp"
+            android:paddingTop="15dp"
+            android:text="기타 편의사항"
+            android:textColor="#000000"
+            android:textSize="22dp"
+            android:textStyle="bold" />
+
+        <View style="@style/Divider" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.2"></RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.8"
+                android:orientation="vertical">
+
+
+                <Button
+                    android:id="@+id/btn_r_dailybible"
+                    style="?android:attr/borderlessButtonStyle"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#f2f2f2"
+                    android:gravity="left"
+                    android:paddingBottom="8dp"
+                    android:paddingTop="15dp"
+                    android:text="매일 성경"
+                    android:textColor="#919191"
+                    android:textSize="21dp"
+                    android:typeface="sans" />
+
+                <Button
+                    android:id="@+id/btn_r_adv_request"
+                    style="?android:attr/borderlessButtonStyle"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#f2f2f2"
+                    android:gravity="left"
+                    android:paddingBottom="8dp"
+                    android:paddingTop="8dp"
+                    android:text="광고 요청"
+                    android:textColor="#919191"
+                    android:textSize="21dp"
+                    android:typeface="sans" />
+
+                <Button
+                android:id="@+id/btn_r_place_reg"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="#f2f2f2"
+                android:gravity="left"
+                android:paddingBottom="8dp"
+                android:paddingTop="8dp"
+                android:text="장소 예약"
+                android:textColor="#919191"
+                android:textSize="21dp"
+                android:typeface="sans" />
+
+                <Button
+                    android:id="@+id/btn_r_car_reg"
+                    style="?android:attr/borderlessButtonStyle"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#f2f2f2"
+                    android:gravity="left"
+                    android:paddingBottom="8dp"
+                    android:paddingTop="8dp"
+                    android:text="차량 신청"
+                    android:textColor="#919191"
+                    android:textSize="21dp"
+                    android:typeface="sans" />
+
+                <Button
+                    android:id="@+id/btn_r_map"
+                    style="?android:attr/borderlessButtonStyle"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#f2f2f2"
+                    android:gravity="left"
+                    android:paddingBottom="8dp"
+                    android:paddingTop="8dp"
+                    android:text="찾아오는 길"
+                    android:textColor="#919191"
+                    android:textSize="21dp"
+                    android:typeface="sans" />
+                <Button
+                    android:id="@+id/btn_r_app_upload"
+                    style="?android:attr/borderlessButtonStyle"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#f2f2f2"
+                    android:gravity="left"
+                    android:paddingBottom="8dp"
+                    android:paddingTop="8dp"
+                    android:text="어플 업로드 요청"
+                    android:textColor="#919191"
+                    android:textSize="21dp"
+                    android:typeface="sans" />
+
+                <Button
+                    android:id="@+id/btn_r_suggestion"
+                    style="?android:attr/borderlessButtonStyle"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#f2f2f2"
+                    android:gravity="left"
+                    android:paddingBottom="15dp"
+                    android:paddingTop="8dp"
+                    android:text="건의 사항"
+                    android:textColor="#919191"
+                    android:textSize="21dp"
+                    android:typeface="sans" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <View style="@style/Divider2" />
+
+        <TextView
+            android:id="@+id/text6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:paddingBottom="10dp"
+            android:paddingLeft="23dp"
+            android:paddingTop="15dp"
+            android:text="커뮤니티"
+            android:textColor="#000000"
+            android:textSize="22dp"
+            android:textStyle="bold" />
+
+        <View style="@style/Divider" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.2"></RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.8"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/btn_r_homepage"
+                    style="?android:attr/borderlessButtonStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#f2f2f2"
+                    android:gravity="left"
+                    android:paddingBottom="8dp"
+                    android:paddingTop="15dp"
+                    android:text="홈페이지"
+                    android:textColor="#919191"
+                    android:textSize="21dp" />
+
+                <Button
+                    android:id="@+id/btn_r_instagram"
+                    style="?android:attr/borderlessButtonStyle"
+                    android:onClick="mnuClickEvent"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#f2f2f2"
+                    android:gravity="left"
+                    android:paddingBottom="8dp"
+                    android:paddingTop="8dp"
+                    android:text="인스타그램"
+                    android:textColor="#919191"
+                    android:textSize="21dp"
+                    android:typeface="sans" />
+
+                <Button
+                    android:id="@+id/btn_r_facebook"
+                    style="?android:attr/borderlessButtonStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#f2f2f2"
+                    android:gravity="left"
+                    android:paddingBottom="15dp"
+                    android:paddingTop="8dp"
+                    android:text="페이스북"
+                    android:textColor="#919191"
+                    android:textSize="21dp" />
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>
+

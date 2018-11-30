@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.kyu.user.nsgprac2.MainActivity">
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:background="#ffffff"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/rr_menuLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="right"
+            android:background="#ff393c46"
+            android:orientation="vertical"
+            android:textColor="#ff000000">
+
+            <!-- include -->
+            <include
+                android:id="@+id/ic_rightslidemenu"
+                layout="@layout/rightslidemenu"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:id="@+id/gray_layout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#707070"
+                android:orientation="horizontal">
+
+            </LinearLayout>
+
+            <!-- slide layout-->
+            <LinearLayout
+                android:id="@+id/rr_mainlayout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#ffffffff">
+
+                <FrameLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent">
+
+                    <LinearLayout
+                        android:id="@+id/rr_fragment"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <ScrollView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:overScrollMode="never">
+
+                            <LinearLayout
+                                android:id="@+id/first"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_marginLeft="20dp"
+                                android:layout_marginRight="20dp"
+                                android:orientation="vertical">
+
+                                //환영 글
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginBottom="50dp"
+                                    android:layout_marginTop="20dp"
+                                    android:orientation="vertical">
+
+                                    <ImageView
+                                        android:id="@+id/img_home1"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="200dp"
+                                        android:layout_weight="1"
+                                        android:adjustViewBounds="true"
+                                        android:background="@drawable/home1" />
+
+                                    <TextView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:text="남서울은혜교회에 오신 여러분을 환영합니다"
+                                        android:textColor="@color/black"
+                                        android:textSize="17dp"
+                                        android:textStyle="bold"
+                                        android:gravity="center_horizontal"
+                                        android:layout_marginTop="10dp"/>
+
+                                    <TextView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginTop="10dp"
+                                        android:textColor="#666666"
+                                        android:text="예수그리스도의\n'종과 증인'의 길을\n이어받아 예수 사랑의 힘\n가운데 진심으로\n달려가는 청년공동체가 되길 소망합니다"
+                                        android:gravity="center_horizontal"
+                                        android:textSize="15dp" />
+
+                                </LinearLayout>
+
+
+                                //다가오는 말씀
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginBottom="50dp"
+                                    android:orientation="vertical">
+
+                                    <ImageView
+                                        android:id="@+id/img_home2"
+                                        android:layout_width="230dp"
+                                        android:layout_height="230dp"
+                                        android:layout_gravity="center_horizontal"
+                                        android:adjustViewBounds="true"
+                                        android:background="@drawable/home2" />
+
+
+                                    <TextView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="40dp"
+                                        android:text="다가오는 말씀 "
+                                        android:gravity="center_horizontal"
+                                        android:layout_marginTop="20dp"
+                                        android:textColor="@color/black"
+                                        android:textSize="20dp"
+                                        android:textStyle="bold" />
+
+                                    <View style="@style/Divider3"
+                                        android:layout_marginTop="30dp"/>
+
+                                    <TextView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginTop="10dp"
+                                        android:text="주일예배"
+                                        android:textColor="#078B75"
+                                        android:textStyle="bold"
+                                        android:gravity="center_horizontal"
+                                        android:textSize="20dp" />
+
+                                    <TextView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginTop="10dp"
+                                        android:textColor="#ababab"
+                                        android:text="매주 일요일 오후 2시30분 | 밀알학교 그레이스홀\n\n"
+                                        android:gravity="center_horizontal"
+                                        android:textSize="12dp" />
+
+                                    <TextView
+                                        android:id="@+id/txt_sun"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:gravity="center_horizontal"
+                                        android:textColor="#666666"
+                                        android:lineSpacingExtra="5dp"
+                                        android:textSize="15dp" />
+
+                                    <View style="@style/Divider3"
+                                        android:layout_marginTop="30dp"/>
+
+                                    <TextView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginTop="10dp"
+                                        android:text="목요예배"
+                                        android:textColor="#078B75"
+                                        android:textStyle="bold"
+                                        android:gravity="center_horizontal"
+                                        android:textSize="20dp" />
+
+                                    <TextView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginTop="10dp"
+                                        android:text="매주 목요일 오후 8시 | 남서울은혜교회 본당 지하1층\n\n"
+                                        android:textColor="#ababab"
+                                        android:gravity="center_horizontal"
+                                        android:textSize="12dp" />
+
+                                    <TextView
+                                        android:id="@+id/txt_tbm"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:textColor="#666666"
+                                        android:gravity="center_horizontal"
+                                        android:textSize="15dp" />
+
+                                </LinearLayout>
+
+
+                            </LinearLayout>
+                        </ScrollView>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/rr_empty"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:background="@android:color/transparent"
+                        android:orientation="horizontal" />
+                </FrameLayout>
+            </LinearLayout>
+        </FrameLayout>
+    </FrameLayout>
+</LinearLayout>
+
+

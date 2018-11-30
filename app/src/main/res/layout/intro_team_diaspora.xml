@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.08"></RelativeLayout>
+
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.84">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="디아스포라팀"
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                android:layout_marginBottom="20dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="해외에 나가있는 유학생들과 연락하고 교제하며, 방학 중에 귀국하는 유학생들과 특별 목장모임을 합니다.\n\n(디아스포라: 흩어질수록 생명으로 피어나는 민들레 홀씨 같은 사람들.)"
+                android:lineSpacingExtra="5dp"
+                android:layout_marginBottom="20dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="사역 소개"
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                android:layout_marginBottom="20dp"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1. 디아스포라의 뜻\n디아스포라는 그리스어로서 dia(흩어진)와 spora(씨앗)의 합성어입니다. 디아스포라는 유대 왕국이 패망하여 바빌론으로 유배당한 뒤 이방인 사이에 흩어져 살게 된 유대인들을 일컬었는데, 이후 의미가 확대되어 ‘본국을 떠나 다른 나라, 지역에 흩어져서 자신들의 규범과 관습을 유지하며 살아가는 민족 집단’을 통칭해 디아스포라라고 합니다."
+                android:lineSpacingExtra="5dp"
+                android:layout_marginBottom="20dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2. 디아스포라 팀의 역할\n- 기도제목을 받아 공동체와 함께 기도함.\n- 목장모임을 통해 교제하고 나눔.\n- 연락망을 통해 교회 소식을 전달함."
+                android:lineSpacingExtra="5dp"
+                android:layout_marginBottom="20dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="3. 디아스포라 팀의 목표\n- 디아스포라 팀은 유학생들이 타지에서 가족, 친구들과 떨어져 힘들고 외로울 때, 이야기를 들어주고 위로해줄 수 있는 친구가 될 수 있도록\n- 방학 중 짧은 시간동안 한국에 머물다 가게되지만, 남서울은혜교회 공동체가 '우리' 공동체로 느껴질 수 있도록\n- 디아스포라들이 그리스도인으로서의 정체성을 품고 타지에서도 그리스도의 향기를 풍기는 한알의 씨앗이 될 수 있도록 기도하고 섬기겠습니다."
+                android:lineSpacingExtra="5dp"
+                android:layout_marginBottom="20dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="4. 마지막으로.. "
+                android:lineSpacingExtra="5dp"
+                android:layout_marginBottom="20dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="유학생 여러분 한국에 오면 디아스포라 팀을 꼭 찾아주세요~\n\n(디아스포라 리더 92또래 주세진)"
+                android:lineSpacingExtra="5dp"
+                android:layout_marginBottom="20dp"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.08"></RelativeLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.08"></RelativeLayout>
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.84">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="새가족마을"
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                android:layout_marginBottom="20dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="샬롬! 사랑이 넘치는 새가족마을입니다!\n저희는 남서울은혜교회에 찾아오신 새가족 여러분들을 위해 기도와 사랑으로 섬기는 새가족 마을입니다!"
+                android:lineSpacingExtra="5dp"
+                android:layout_marginBottom="20dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="등록 안내"
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                android:layout_marginBottom="20dp"/>
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="남서울 은혜교회 청년부에 처음오신 새가족분께서는 주일 5부 예배 후 그레이스홀 뒤편 새가족 안내 데스크에서 등록카드를 작성하신 뒤, 새가족마을 리더들과 함께 새가족 양육 과정을 받으십니다.\n\n5주간의 새가족 양육 과정을 마치고 수료한 뒤에는 청년부 각 목장으로 등반하여 더 풍성한 은혜와 나눔을 누리게 됩니다."
+                android:lineSpacingExtra="5dp"
+                android:layout_marginBottom="20dp"/>
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"/>
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.08"></RelativeLayout>
+
+
+</LinearLayout>

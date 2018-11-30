@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.08"></RelativeLayout>
+
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.84">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:text="광고팀"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:text="주보영상, 홍보영상, 어플을 통해 청년부의 소식을 전하고 있습니다." />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:text="어플 업로드 요청"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:text="위 주소로 가서 게시글을 작성해 주시면 됩니다." />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:text="광고 요청"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:text="광고요청은 위 주소로 가서 게시글을 작성해주셔야 합니다." />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:text="1. 광고 마감 시간은 매주 목요일 18:00입니다."
+                android:textColor="#ed4c00" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:lineSpacingExtra="5dp"
+                android:text="2. 결혼광고\n결혼광고는 사진과 결혼예배 일정을 소개합니다.\n가장 아름답게 나온 결혼사진과 함께 또래와 이름, 결혼 예배 날짜, 시간, 장소 등을 적어주시면 됩니다." />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:lineSpacingExtra="5dp"
+                android:text="3. 영상을 제작해서 보내실때\n영상광고 마감은 목요일 18:00까지입니다.\n가능하면 한 주 전에 전달해주시면 조금 더 수월하게 준비할 수 있습니다.\n영상광고가 나가야 할 날짜를 적어주신 뒤 동영상 파일을 예배국장이나 광고팀 이메일(nsg.ggt@gmail.com)을 통해 보내주시면 됩니다.\n영상광고는 목회자 확인을 거쳐서 최종 결정됩니다.\n예배 중에 나가는 영상광고는 3분 30초 이내로 제작해주셔야 합니다.(제시된 시간 이상으로 제작해서 보내실 경우에는 시간 수정을 다시 해서 보내주셔야 합니다. 그렇지 않으면 임의의 시간에 동영상이 잘리게 됩니다." />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:lineSpacingExtra="5dp"
+                android:text="4. 글쓰기의 간단한 양식\n내용을 포함한 제목\n광고 내용\n일시\n장소\n문의:이름(또래)/메일주소(주보 송출용)/전화번호(영상 송출) " />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="20dp"
+                android:lineSpacingExtra="5dp"
+                android:text="- 간단한 사항과 함께, 게시자 또래 및 이름을 함께 적어주셔야 합니다.\n- 기본적으로 PPT 등의 첨부 파일은 송출해드릴 수 없음을 알려드립니다.\n- 일반광고 광고기한은 2주입니다.(기간 연장은 소통을 통해 가능 여부 판단을 한 다음 연장이 가능합니다." />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.08"></RelativeLayout>
+
+
+</LinearLayout>

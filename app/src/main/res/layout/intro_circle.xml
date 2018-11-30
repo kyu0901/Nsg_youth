@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <RelativeLayout
+        android:id="@+id/intro_circle_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <View
+                    android:layout_width="wrap_content"
+                    android:layout_height="10dp"
+                    android:background="#eaeaea" />
+
+                //말음모
+
+                <LinearLayout
+                    android:id="@+id/first"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginRight="25dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/eating_word_circle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="15dp"
+                        android:text="말음모"
+                        android:textSize="16dp"
+                        android:textStyle="bold" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="right">
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="25dp"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:id="@+id/img_eating_word_circle"
+                            android:layout_width="0dp"
+                            android:layout_height="100dp"
+                            android:layout_weight="0.45"
+                            android:background="@drawable/main_logo" />
+
+                        <TextView
+                            android:id="@+id/txt_eating_word_circle"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="0.55"
+                            android:background="@android:color/white"
+                            android:gravity="center"
+                            android:text="말음모(말씀을 음식삼는 모임) "
+                            android:textSize="15dp" />
+
+                    </LinearLayout>
+                </LinearLayout>
+
+                <View
+                    android:layout_width="wrap_content"
+                    android:layout_height="10dp"
+                    android:background="#eaeaea" />
+
+                //주아기
+
+                <LinearLayout
+                    android:id="@+id/second"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginRight="25dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/daily_morn_pray_circle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="15dp"
+                        android:text="주아기"
+                        android:textSize="16dp"
+                        android:textStyle="bold" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="right">
+
+                        <ImageButton
+                            android:id="@+id/btn_daily_morn_pray_circle"
+                            android:layout_width="40dp"
+                            android:layout_height="10dp"
+                            android:layout_marginBottom="5dp"
+                            android:layout_marginTop="5dp"
+                            android:background="@drawable/more" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="25dp"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:id="@+id/img_daily_morn_pray_circle"
+                            android:layout_width="0dp"
+                            android:layout_height="100dp"
+                            android:layout_weight="0.45"
+                            android:background="@drawable/main_logo" />
+
+                        <TextView
+                            android:id="@+id/txt_daily_morn_pray_circle"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="0.55"
+                            android:background="@android:color/white"
+                            android:gravity="center"
+                            android:text="새벽이슬 같은 청년들의 큐티,기도모임"
+                            android:textSize="15dp" />
+
+                    </LinearLayout>
+                </LinearLayout>
+
+                <View
+                    android:layout_width="wrap_content"
+                    android:layout_height="10dp"
+                    android:background="#eaeaea" />
+
+                //청바지
+
+                <LinearLayout
+                    android:id="@+id/third"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginRight="25dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/youth_right_knowledge_circle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="15dp"
+                        android:text="청바지"
+                        android:textSize="16dp"
+                        android:textStyle="bold" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="right">
+
+                        <ImageButton
+                            android:id="@+id/btn_youth_right_knowledge_circle"
+                            android:layout_width="40dp"
+                            android:layout_height="10dp"
+                            android:layout_marginBottom="5dp"
+                            android:layout_marginTop="5dp"
+                            android:background="@drawable/more" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="25dp"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:id="@+id/img_youth_right_knowledge_circle"
+                            android:layout_width="0dp"
+                            android:layout_height="100dp"
+                            android:layout_weight="0.45"
+                            android:background="@drawable/main_logo" />
+
+                        <TextView
+                            android:id="@+id/txt_youth_right_knowledge_circle"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="5dp"
+                            android:layout_weight="0.55"
+                            android:background="@android:color/white"
+                            android:gravity="center"
+                            android:text="청년들의 바른 지식을 위한 모임 "
+                            android:textSize="15dp" />
+
+                    </LinearLayout>
+                </LinearLayout>
+
+                <View
+                    android:layout_width="wrap_content"
+                    android:layout_height="10dp"
+                    android:background="#eaeaea" />
+
+            </LinearLayout>
+
+
+        </ScrollView>
+
+    </RelativeLayout>
+</LinearLayout>

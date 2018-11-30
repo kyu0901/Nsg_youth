@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/intro_ws"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.08"></RelativeLayout>
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.84"
+        android:overScrollMode="never">
+
+        <LinearLayout
+            android:id="@+id/intro_ws_gpt_main"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:text="청년부 예배"
+            android:textColor="#FD9E2B"
+            android:textSize="17dp"
+            android:textStyle="bold"
+            android:layout_marginTop="15dp"/>
+
+            //ws_intro_1
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="40dp"
+                android:layout_marginTop="20dp"
+                android:orientation="vertical">
+
+                <com.github.chrisbanes.photoview.PhotoView
+                    android:id="@+id/img_ws_intro_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:layout_weight="1"/>
+
+            </LinearLayout>
+
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:text="모든 예배"
+                android:textColor="#43A3A3"
+                android:textSize="17dp"
+                android:textStyle="bold"
+                android:layout_marginTop="15dp"/>
+
+            //ws_intro_2
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="40dp"
+                android:layout_marginTop="20dp"
+                android:orientation="vertical">
+
+                <com.github.chrisbanes.photoview.PhotoView
+                    android:id="@+id/img_ws_intro_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="335dp"
+                    android:layout_weight="1"/>
+
+            </LinearLayout>
+
+            //ws_intro_3
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="50dp"
+                android:layout_marginTop="20dp"
+                android:orientation="vertical">
+
+                <com.github.chrisbanes.photoview.PhotoView
+                    android:id="@+id/img_ws_intro_3"
+                    android:layout_width="match_parent"
+                    android:layout_height="215dp"
+                    android:layout_weight="1"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.08"></RelativeLayout>
+
+
+</LinearLayout>

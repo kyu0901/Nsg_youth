@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:id="@+id/notice_main_event_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.08"></RelativeLayout>
+
+            <ScrollView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.84"
+                android:overScrollMode="never">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    //기도와 후원 1
+
+                    <LinearLayout
+                        android:id="@+id/l1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="50dp"
+                        android:layout_marginTop="20dp"
+                        android:orientation="vertical">
+
+                        <ImageButton
+                            android:id="@+id/img_event_1"
+                            android:layout_width="match_parent"
+                            android:layout_height="300dp"
+                            android:layout_weight="1" />
+
+                        <TextView
+                            android:id="@+id/txt_event_1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:lineSpacingExtra="5dp"
+                            android:textSize="15dp"
+                            android:gravity="center_horizontal"/>
+
+                    </LinearLayout>
+
+                    //기도와 후원 2
+
+                    <LinearLayout
+                        android:id="@+id/l2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="50dp"
+                        android:layout_marginTop="20dp"
+                        android:orientation="vertical">
+
+                        <ImageButton
+                            android:id="@+id/img_event_2"
+                            android:layout_width="match_parent"
+                            android:layout_height="300dp"
+                            android:layout_weight="1" />
+
+                        <TextView
+                            android:id="@+id/txt_event_2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:lineSpacingExtra="5dp"
+                            android:textSize="15dp"
+                            android:gravity="center_horizontal"/>
+
+                    </LinearLayout>
+
+                    //기도와 후원 3
+
+                    <LinearLayout
+                        android:id="@+id/l3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="50dp"
+                        android:layout_marginTop="20dp"
+                        android:orientation="vertical">
+
+                        <ImageButton
+                            android:id="@+id/img_event_3"
+                            android:layout_width="match_parent"
+                            android:layout_height="300dp"
+                            android:layout_weight="1" />
+
+                        <TextView
+                            android:id="@+id/txt_event_3"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:lineSpacingExtra="5dp"
+                            android:textSize="15dp"
+                            android:gravity="center_horizontal"/>
+
+                    </LinearLayout>
+
+                    //기도와 후원4
+
+                    <LinearLayout
+                        android:id="@+id/l4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="50dp"
+                        android:layout_marginTop="20dp"
+                        android:orientation="vertical">
+
+                        <ImageButton
+                            android:id="@+id/img_event_4"
+                            android:layout_width="match_parent"
+                            android:layout_height="300dp"
+                            android:layout_weight="1" />
+
+                        <TextView
+                            android:id="@+id/txt_event_4"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:lineSpacingExtra="5dp"
+                            android:textSize="15dp"
+                            android:gravity="center_horizontal"/>
+
+                    </LinearLayout>
+
+                    //기도와 후원5
+
+                    <LinearLayout
+                        android:id="@+id/l5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="50dp"
+                        android:layout_marginTop="20dp"
+                        android:orientation="vertical">
+
+                        <ImageButton
+                            android:id="@+id/img_event_5"
+                            android:layout_width="match_parent"
+                            android:layout_height="300dp"
+                            android:layout_weight="1" />
+
+                        <TextView
+                            android:id="@+id/txt_event_5"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:lineSpacingExtra="5dp"
+                            android:textSize="15dp"
+                            android:gravity="center_horizontal"/>
+
+                    </LinearLayout>
+
+                    //기도와 후원 6
+
+                    <LinearLayout
+                        android:id="@+id/l6"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="50dp"
+                        android:layout_marginTop="20dp"
+                        android:orientation="vertical">
+
+                        <ImageButton
+                            android:id="@+id/img_event_6"
+                            android:layout_width="match_parent"
+                            android:layout_height="300dp"
+                            android:layout_weight="1" />
+
+                        <TextView
+                            android:id="@+id/txt_event_6"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:lineSpacingExtra="5dp"
+                            android:textSize="15dp"
+                            android:gravity="center_horizontal" />
+
+                    </LinearLayout>
+
+                    //기도와 후원7
+
+                    <LinearLayout
+
+                        android:id="@+id/l7"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="50dp"
+                        android:layout_marginTop="20dp"
+                        android:orientation="vertical">
+
+                        <ImageButton
+                            android:id="@+id/img_event_7"
+                            android:layout_width="match_parent"
+                            android:layout_height="300dp"
+                            android:layout_weight="1" />
+
+                        <TextView
+                            android:id="@+id/txt_event_7"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:lineSpacingExtra="5dp"
+                            android:textSize="15dp"
+                            android:gravity="center_horizontal"/>
+
+                    </LinearLayout>
+
+                    //기도와 후원8
+
+                    <LinearLayout
+                        android:id="@+id/l8"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="50dp"
+                        android:layout_marginTop="20dp"
+                        android:orientation="vertical">
+
+                        <ImageButton
+                            android:id="@+id/img_event_8"
+                            android:layout_width="match_parent"
+                            android:layout_height="300dp"
+                            android:layout_weight="1" />
+
+                        <TextView
+                            android:id="@+id/txt_event_8"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:lineSpacingExtra="5dp"
+                            android:textSize="15dp"
+                            android:gravity="center_horizontal"/>
+                    </LinearLayout>
+
+                    //기도와 후원9
+
+                    <LinearLayout
+                        android:id="@+id/l9"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="50dp"
+                        android:layout_marginTop="20dp"
+                        android:orientation="vertical">
+
+                        <ImageButton
+                            android:id="@+id/img_event_9"
+                            android:layout_width="match_parent"
+                            android:layout_height="300dp"
+                            android:layout_weight="1" />
+
+                        <TextView
+                            android:id="@+id/txt_event_9"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:lineSpacingExtra="5dp"
+                            android:textSize="15dp"
+                            android:gravity="center_horizontal"/>
+
+                    </LinearLayout>
+
+                    //기도와 후원10
+
+                    <LinearLayout
+                        android:id="@+id/l10"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="50dp"
+                        android:layout_marginTop="20dp"
+                        android:orientation="vertical">
+
+                        <ImageButton
+                            android:id="@+id/img_event_10"
+                            android:layout_width="match_parent"
+                            android:layout_height="300dp"
+                            android:layout_weight="1" />
+
+                        <TextView
+                            android:id="@+id/txt_event_10"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:lineSpacingExtra="5dp"
+                            android:textSize="15dp"
+                            android:gravity="center_horizontal" />
+                    </LinearLayout>
+
+                </LinearLayout>
+            </ScrollView>
+
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.08"></RelativeLayout>
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

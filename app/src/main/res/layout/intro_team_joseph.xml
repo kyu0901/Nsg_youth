@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:id="@+id/imageView" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="청년요셉부"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="청년요셉부는 청년사역센터 내에서 수능에 도전하는 수험생(재수생/N수생)들을 섬기는 공동체입니다. 하나님 말씀의 능력과 청년부 선배들을 통한 위로와 격려를 경험하는 사랑의 공동체입니다."/>
+
+
+</LinearLayout>

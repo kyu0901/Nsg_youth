@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/white">
+
+        <LinearLayout
+            android:id="@+id/rr_menuLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="right"
+            android:background="#ff393c46"
+            android:orientation="vertical"
+            android:textColor="#ff000000">
+
+            <!-- include -->
+            <include
+                android:id="@+id/ic_rightslidemenu"
+                layout="@layout/rightslidemenu"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:id="@+id/gray_layout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#707070"
+                android:orientation="horizontal"></LinearLayout>
+
+            <!-- 가로 메뉴 -->
+            <LinearLayout
+                android:id="@+id/rr_mainlayout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#ffffffff"
+                android:orientation="vertical">
+
+
+                <LinearLayout
+                    android:id="@+id/BigMnu"
+                    android:layout_width="match_parent"
+                    android:layout_height="51dp"
+                    android:background="#d1d1d1"
+                    android:orientation="horizontal">
+
+                    <RelativeLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.16"
+                        android:background="#d1d1d1">
+
+                        <ImageButton
+                            android:id="@+id/btn_intro"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/xintro"
+                            android:scaleType="centerInside"
+                            android:text="소개" />
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.155"
+                        android:background="#d1d1d1">
+
+                        <ImageButton
+                            android:id="@+id/btn_ws"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/xworship"
+                            android:scaleType="centerInside"
+                            android:text="예배" />
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.155"
+                        android:background="#d1d1d1">
+
+                        <ImageButton
+                            android:id="@+id/btn_notice"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/xnotice"
+                            android:scaleType="centerInside"
+                            android:text="공지" />
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.155"
+                        android:background="#d1d1d1">
+
+                        <ImageButton
+                            android:id="@+id/btn_pray"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/xpray"
+                            android:scaleType="centerInside"
+                            android:text="기도" />
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.355"
+                        android:background="#d1d1d1">
+
+                        <ImageButton
+                            android:id="@+id/btn_etc"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/xetc"
+                            android:scaleType="centerInside"
+                            android:text="기타편의사항"/>
+                    </RelativeLayout>
+
+                </LinearLayout>
+
+                <FrameLayout
+                    android:id="@+id/SmallMnu"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/white"></FrameLayout>
+            </LinearLayout>
+        </FrameLayout>
+
+    </FrameLayout>
+</LinearLayout>
